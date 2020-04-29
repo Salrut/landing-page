@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Material Design for Bootstrap</title>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+  <script src="lib/galleria/galleria.min.js"></script>
+  <style>
+    .galleria{ width: 700px; height: 400px; background: #000 }
+  </style>
+
   <!-- MDB icon -->
   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
   <!-- Font Awesome -->
@@ -19,6 +26,19 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+<div class="galleria">
+  <img src="img/pic/ash.jpg">
+  <img src="img/pic/flower.jpg">
+  <img src="img/pic/fog.jpg">
+</div>
+<script>
+  (function() {
+    Galleria.loadTheme('lib/galleria/themes/classic/galleria.classic.js');
+    Galleria.run('.galleria');
+  }());
+</script>
+
 
   <!-- Start your project here-->
   <!--Card-->
@@ -44,12 +64,91 @@
 
   </div>
   <!--/.Card-->
-  <!--Google map-->
-  <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
-    <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-            style="border:0" allowfullscreen></iframe>
-  </div>
 
+
+  <!-- Grid row -->
+  <div class="row">
+
+  </div>
+  <!-- Grid row -->
+
+  <!-- Grid row -->
+  <div class="row">
+
+    <!-- Grid column -->
+    <div class="col-lg-4 col-md-12 mb-3">
+
+      <img src="img/pic/ash.jpg" class="img-fluid z-depth-1"
+           alt="Responsive image">
+
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-lg-4 col-md-6 mb-3">
+
+      <img src="img/pic/flower.jpg" class="img-fluid z-depth-1"
+           alt="Responsive image">
+
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-lg-4 col-md-6 mb-3">
+
+      <img src="img/pic/fog.jpg" class="img-fluid z-depth-1"
+           alt="Responsive image">
+
+    </div>
+    <!-- Grid column -->
+
+  </div>
+  <!-- Grid row -->
+  <!-- Grid row -->
+  <div class="row">
+
+  </div>
+  <!-- Grid row -->
+
+  <!-- Grid row -->
+  <div class="row">
+
+    <!-- Grid column -->
+    <div class="col-lg-4 col-md-12 mb-3">
+
+      <img src="img/pic/italy.jpg" class="img-fluid z-depth-1"
+           alt="Responsive image">
+
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-lg-4 col-md-6 mb-3">
+
+      <img src="img/pic/venice.jpg" class="img-fluid z-depth-1"
+           alt="Responsive image">
+
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-lg-4 col-md-6 mb-3">
+
+      <img src="img/pic/volcano.jpg" class="img-fluid z-depth-1"
+           alt="Responsive image">
+
+    </div>
+    <!-- Grid column -->
+
+  </div>
+  <!-- Grid row -->
+
+
+
+  </div>
+  <!-- Grid row -->
+  <!--Google map-->
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14510.682658683023!2d8.592079451680927!3d47.257383576002546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sch!4v1588151017704!5m2!1sde!2sch" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
   <!--Google Maps-->
   <!-- End your project here-->
 
